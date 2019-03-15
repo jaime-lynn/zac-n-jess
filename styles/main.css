@@ -1,0 +1,125 @@
+/* MOBILE STYLES */
+@media all and (min-width: 0px) and (max-width: 1024px) {
+  .no-mobile {
+    display: none;
+  }
+
+  .form-container-mobile {
+    width: 80% !important;
+  }
+}
+
+/* GENERAL STYLES */
+.center-valign {
+  justify-content: center;
+}
+
+.header {
+  font-family: 'Dancing Script', cursive;
+}
+
+.parallax-header {
+  color: #FFFDD0;
+}
+
+.parallax-header:not(:first-of-type) {
+  margin-top: 5rem;
+}
+
+.parallax-container {
+  min-height: 250px;
+  color: #FFFDD0;
+}
+
+.parallax-container:first-of-type {
+  max-height: 300px;
+}
+
+.section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #FFFDD0;
+}
+
+/* MATERIALIZE OVERRIDES */
+.switch label input[type=checkbox]:checked + .lever {
+  background-color: #FFFCB7;
+}
+
+.switch label input[type=checkbox]:checked + .lever:after {
+  background-color: #FFFB9D;
+}
+
+.container {
+  width: 60%;
+}
+
+.form-container {
+  width: 40%;
+}
+
+.btn {
+  color: black;
+}
+
+label.active {
+  color: #FFFCB7 !important;
+}
+
+input[type=text]:focus {
+  border-bottom: 1px solid #FFFB9D !important;
+  -webkit-box-shadow: 0 1px 0 0 #FFFB9D !important;
+  box-shadow: 0 1px 0 0 #FFFB9D !important;
+}
+
+input[type=text] {
+  color: #FFFDD0 !important;
+}
+
+/* IMAGE CLASSES */
+.rotate-left {
+  -ms-transform: rotate(-20deg); /* IE 9 */
+  -webkit-transform: rotate(-20deg); /* Safari */
+  transform: rotate(-20deg);
+}
+
+.rotate-right {
+  -ms-transform: rotate(20deg); /* IE 9 */
+  -webkit-transform: rotate(20deg); /* Safari */
+  transform: rotate(20deg);
+}
+
+.rotate-left-less {
+  -ms-transform: rotate(-15deg); /* IE 9 */
+  -webkit-transform: rotate(-15deg); /* Safari */
+  transform: rotate(-15deg);
+}
+
+.position-top-left {
+  position: fixed;
+  top: 2vh;
+  left: 2vw;
+}
+
+.position-mid-right {
+  position: fixed;
+  top: 30vh;
+  right: 2vw;
+}
+
+.position-bottom-left {
+  position: fixed;
+  top: 80vh;
+  left: 2vw;
+}
+
+.white-bordered {
+  border: 5px solid white;
+}
+
+img.materialboxed.active {
+  border: none;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Safari */
+  transform: rotate(0deg);
+}
