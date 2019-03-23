@@ -36,6 +36,7 @@
 
 .parallax-container {
   min-height: 250px;
+  height: auto !important;
   color: #FFFDD0;
 }
 
