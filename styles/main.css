@@ -7,6 +7,14 @@
   .form-container-mobile {
     width: 80% !important;
   }
+
+  .mobile-divider {
+    margin-bottom: 1.5rem;
+  }
+  
+  .container {
+    width: 70% !important;
+  }
 }
 
 /* GENERAL STYLES */
@@ -50,8 +58,13 @@
   background-color: #FFFB9D;
 }
 
+input[type="radio"]:checked+span:after {
+  background-color: #FFFB9D;
+  border: 2px solid #FFFB9D;
+}
+
 .container {
-  width: 60%;
+  width: 55%;
 }
 
 .form-container {
@@ -74,6 +87,10 @@ input[type=text]:focus {
 
 input[type=text] {
   color: #FFFDD0 !important;
+}
+
+.label-margin {
+  margin-top: 1.7rem;
 }
 
 /* IMAGE CLASSES */
@@ -122,4 +139,13 @@ img.materialboxed.active {
   -ms-transform: rotate(0deg); /* IE 9 */
   -webkit-transform: rotate(0deg); /* Safari */
   transform: rotate(0deg);
+}
+
+/* SET TALL IMAGES WIDTH AUTO, SET WIDE IMAGES HEIGHT AUTO (WHEN MATERIALBOXED) */
+img.materialboxed.active.tall {
+  width: auto !important;
+}
+
+img.materialboxed.active.wide {
+  height: auto !important;
 }

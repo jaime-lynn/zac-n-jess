@@ -16,16 +16,30 @@
     <div class="parallax">
       <img class="parallax-bg" src="https://images.unsplash.com/photo-1518704601994-6a9b5d3c6d83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="roses">
     </div>
-    <img class="rotate-left position-top-left white-bordered materialboxed no-mobile" width="250" src="./images/zacnjess1.JPG" alt="A picture of Zac & Jessie">
+    <img class="rotate-left position-top-left white-bordered materialboxed no-mobile tall" width="250" src="./images/zacnjess1.JPG" alt="A picture of Zac & Jessie">
     <h1 class="center-align header main-header parallax-header">Zac & Jessie</h1>
   </div>
 
   <!-- Info Section -->
   <div class="section">
-    <img class="rotate-right position-mid-right white-bordered materialboxed no-mobile" width="250" src="./images/zacnjess2.jpg" alt="A picture of Zac & Jessie">
+    <img class="rotate-right position-mid-right white-bordered materialboxed no-mobile tall" width="250" src="./images/zacnjess2.jpg" alt="A picture of Zac & Jessie">
     <div class="row container">
       <div class="col s12">
-        <h2 class="center-align header">General Info Goes Here</h2>
+        <h2 class="center-align header">Welcome!</h2>
+          <p>We look forward to tying the knot on our five year anniversary with all of our friends and family! We hope you will be able to join us for cocktails, hors d'ouevres, dancing, and great memories! As an added bonus, all guests in attendance will be free to roam the gardens during the event.</p>
+      </div>
+      <div class="col m6 s12">
+        <h5 class="center-align header">Event Details</h5>
+        <p>The event will take place in Red Butte Garden's Rose Garden.</p>
+        <p>
+          300 Wakara Way<br>
+          Salt Lake City, UT 84108
+        </p>
+        <p>Take Wakara Way off Foothill Drive, follow signs for Amphitheatre. Signs for the wedding will be posted. Please park in the Amphitheatre Lot.</p>
+      </div>
+      <div class="col m6 s12">
+        <h5 class="center-align header">Registry</h5>
+        <p>The couple is not yet registered, but registry information will appear here soon!</p>
       </div>
     </div>
   </div>
@@ -39,29 +53,41 @@
       <div class="col s12">
         <h2 class="header parallax-header">RSVP</h2>
       </div>
-      <form>
+      <form action="https://formspree.io/jessie.madsen@gmail.com" method="POST">
         <div class="input-field col s12">
-          <input name="partyname" id="partyname" type="text">
-          <label for="partyname">Party</label>
+          <input name="attendees" id="attendees" type="text">
+          <label for="attendees">Attendees</label>
+        </div>
+        <div class="col m4 s12">
+          <p class="center-align label-margin">Attending?</p>
+        </div>
+        <div class="input-field col m4 s12">
+          <label>
+            <input name="attending" type="radio" value="yes">
+            <span>Graciously Accept</span>
+          </label>
+        </div>
+        <div class="input-field col m4 s12">
+          <label>
+            <input name="attending" type="radio" value="no">
+            <span>Regretfully Decline</span>
+          </label>
+        </div>
+        <div class="mobile-divider col s12"></div>
+        <div class="input-field col s12">
+          <input name="numberattending" id="numberattending" type="text">
+          <label for="numberattending">Number Attending</label>
         </div>
         <div class="input-field col s12">
           <input name="songrequest" id="songrequest" type="text">
           <label for="songrequest">Song Request</label>
-        </div>
-        <div class="switch">
-          <label>
-            Attending
-            <input name="attending" type="checkbox">
-            <span class="lever"></span>
-            Not Attending
-          </label>
         </div>
         <div class="input-field col s12">
           <button class="btn waves-effect waves-light yellow lighten-4" type="submit" name="action">Submit</button>
         </div>
       </form>
     </div>
-    <img class="rotate-left-less position-bottom-left white-bordered materialboxed no-mobile" width="300" src="./images/zacnjess3.jpg" alt="A picture of Zac & Jessie">
+    <img class="rotate-left-less position-bottom-left white-bordered materialboxed no-mobile wide" width="300" src="./images/zacnjess3.jpg" alt="A picture of Zac & Jessie">
   </div>
 
   <script src="./scripts/main.js"></script>
