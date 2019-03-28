@@ -55,27 +55,27 @@
       </div>
       <form action="https://formspree.io/jessie.madsen@gmail.com" method="POST">
         <div class="input-field col s12">
-          <input name="attendees" id="attendees" type="text">
-          <label for="attendees">Attendees</label>
+          <input name="attendees" id="attendees" type="text" required>
+          <label for="attendees">Individuals Responding</label>
         </div>
         <div class="col m4 s12">
           <p class="center-align label-margin">Attending?</p>
         </div>
         <div class="input-field col m4 s12">
           <label>
-            <input name="attending" type="radio" value="yes">
+            <input name="attending" type="radio" value="yes" required>
             <span>Graciously Accept</span>
           </label>
         </div>
         <div class="input-field col m4 s12">
           <label>
-            <input name="attending" type="radio" value="no">
+            <input name="attending" type="radio" value="no" required>
             <span>Regretfully Decline</span>
           </label>
         </div>
         <div class="mobile-divider col s12"></div>
         <div class="input-field col s12">
-          <input name="numberattending" id="numberattending" type="number">
+          <input name="numberattending" id="numberattending" type="number" required>
           <label for="numberattending">Number Attending</label>
         </div>
         <div class="input-field col s12">
