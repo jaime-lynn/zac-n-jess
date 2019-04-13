@@ -94,6 +94,15 @@ input[type=text], input[type=number] {
   margin-top: 1.7rem;
 }
 
+a {
+  color: black;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 /* IMAGE CLASSES */
 .rotate-left {
   -ms-transform: rotate(-20deg); /* IE 9 */
